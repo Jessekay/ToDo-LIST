@@ -105,3 +105,9 @@ I would like to thank Microverse for allowing me to work on this project
 It's a good experience, I can't express how I feel after learning and implementing what I learned in this To Do list project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## LICENSE <a name="license"></a>
+
+THIS PROJECT IS [MIT](./LICENSE) LICENSED 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
