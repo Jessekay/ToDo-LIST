@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jessekay/To-Do-List.git"
+    "url": "git+https://github.com/Jessekay/ToDo-LIST.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Jessekay/To-Do-List/issues"
+    "url": "https://github.com/Jessekay/ToDo-LIST/issues"
   },
-  "homepage": "https://github.com/Jessekay/To-Do-List#readme",
+  "homepage": "https://github.com/Jessekay/ToDo-LIST#readme",
   "dependencies": {
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
