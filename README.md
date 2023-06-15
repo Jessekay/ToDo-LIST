@@ -24,7 +24,6 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
--HTML, CSS, JavaScript, Linters, and GitHub
 
 <details>
   <summary>Client</summary>
