@@ -24,3 +24,22 @@ clearAll.addEventListener('click', () => {
   removeCompletedItems();
   displayToDoList(getTodoList());
 });
+
+// Event listener for removing an item
+document.addEventListener('click', (event) => {
+  if (event.target.classList.contains('remove-btn')) {
+    const itemIndex = parseInt(event.target.dataset.index, 10);
+    removeItem(itemIndex);
+    displayToDoList(getTodoList());
+  }
+});
+// Event listener for editing an item
+document.addEventListener('click', (event) => {
+  if (event.target.classList.contains('edit-btn')) {
+    const itemIndex = parseInt(event.target.dataset.index, 10);
+    inputItem.value = getTodoList()[itemIndex].description;
+    editIndex = itemIndex;
+    addButton.textContent = 'Save';
+  }
+});
+displayToDoList(getTodoList());
