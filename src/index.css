@@ -1,13 +1,17 @@
-.bg-container {
-  background-color: #363030;
-  color: #272a31;
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.background-container {
+  background-color: #6c2c2c;
+  color: #6c2c2c;
   text-align: center;
   box-sizing: border-box;
 }
 
-.toDo-list {
+.list-toDo {
   width: 60%;
-  background-color: #ddd;
+  background-color: #cdb9b9;
   margin: auto;
   padding: 1rem;
   display: flex;
@@ -22,20 +26,50 @@
   align-items: center;
 }
 
-.inputs-field {
+.data-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.field-input {
   height: 3rem;
   width: 100%;
   border: none;
   outline: none;
 }
 
-.list-properties {
+.input2 {
+  height: 3rem;
+  border: none;
+  outline: none;
+  padding-inline: 0.2rem;
+  width: 80%;
+  font-size: 1.5rem;
+  color: #272a31;
+}
+
+.properties-list {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.left-items {
+.sides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 1rem;
+  background-color: #fff;
+}
+
+.items-left {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.items-right {
   display: flex;
   gap: 0.5rem;
 }
@@ -44,4 +78,9 @@
   height: 2.5rem;
   border: none;
   margin: auto;
+}
+
+.line-one {
+  width: 100%;
+  border: 0.02px;
 }
