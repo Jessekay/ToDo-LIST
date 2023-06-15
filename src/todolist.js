@@ -16,11 +16,13 @@ const addItem = (task) => {
 };
 
 const removeItem = (index) => {
-  todoList.splice(index, 1);
+  const adjustedIndex = index - 1; // subtract 1 from the index
+  todoList.splice(adjustedIndex, 1);
+
   todoList.forEach((item, i) => {
-    item.index = 1 + i;
+    item.index = i + 1;
   });
-  localStorage.setItem('todoList', JSON.stringify(todoList));
+  saveTodoList();
 };
 const removeCompletedItems = () => {
   todoList = todoList.filter((item) => !item.completed);
