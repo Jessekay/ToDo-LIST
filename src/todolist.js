@@ -16,8 +16,7 @@ const addItem = (task) => {
 };
 
 const removeItem = (index) => {
-  const adjustedIndex = index - 1; // subtract 1 from the index
-  todoList.splice(adjustedIndex, 1);
+  todoList.splice(index, 1);
 
   todoList.forEach((item, i) => {
     item.index = i + 1;
