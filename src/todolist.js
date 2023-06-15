@@ -17,6 +17,9 @@ const addItem = (task) => {
 
 const removeItem = (index) => {
   todoList.splice(index, 1);
+  todoList.forEach((item, i) => {
+    item.index = i+1;
+  });
   localStorage.setItem('todoList', JSON.stringify(todoList));
 };
 const removeCompletedItems = () => {
